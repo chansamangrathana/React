@@ -1,17 +1,20 @@
 
 import './App.css'
+import FooterComponet from './component/FooterComponent'
+import MainComponent from './component/MainComponent'
+
 import NavbarComponet from './component/NavbarComponent'
 
-const App=()=> {
+function App() {
   
 
   return (
-    <>
-    <NavbarComponet/>
-    <h1>
-      hello
-    </h1>
-    </>
+    
+     <div className="bg-teal-200 h-screen flex flex-col justify-between ">
+    <NavbarComponet />
+    <MainComponent/>
+    <FooterComponet />
+    </div>
   )
 }
 
