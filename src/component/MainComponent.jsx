@@ -4,7 +4,7 @@ import ProductPage from "./ProductPage";
 const MainComponent = () => {
   return (
     <div className="container mx-auto py-15">
-      <ProductPage />
+      <ProductPage/>
 
       <section class="bg-gray-50 dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
