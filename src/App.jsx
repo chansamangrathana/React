@@ -10,7 +10,7 @@ function App() {
 
   return (
     
-     <div className="bg-teal-200 h-screen flex flex-col justify-between ">
+     <div className="  h-screen flex flex-col justify-between ">
     <NavbarComponet />
     <MainComponent/>
     <FooterComponet />
